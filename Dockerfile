@@ -11,5 +11,3 @@ RUN apk add --update openssh-client && \
 
 USER sshuser
 WORKDIR /home
-
-VOLUME ["/home/.ssh"]
