@@ -1,5 +1,5 @@
 FROM alpine:3.4
-MAINTAINER Steve Buzonas <steve@fancyguy.com>
+MAINTAINER Colin O'Dell <codell@unleashed-technologies.com>
 
 RUN apk add --update openssh-client && \
     rm -rf /var/cache/apk/* && \
